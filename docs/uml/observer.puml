@@ -1,0 +1,38 @@
+@startuml
+title Observer
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam defaultFontName Arial
+hide empty members
+class "EventBus" as b {
+  - observers: List<EcosystemObserver>
+  - pending: Deque<Snapshot>
+  - publishing: boolean
+  - deliveryErrors: List<String>
+  + MAX_DELIVERY_ERRORS: int = 64 {static, readOnly}
+  --
+  + subscribe(observer: EcosystemObserver): void
+  + unsubscribe(observer: EcosystemObserver): void
+  + publish(snapshot: Snapshot): void
+  + deliveryErrors(): List<String>
+}
+interface "EcosystemObserver" as o {
+  + onSnapshot(snapshot: Snapshot): void
+}
+class "WorldPanel" as w {
+  + onSnapshot(snapshot): void
+}
+class "App.StatsPanel" as s {
+  + onSnapshot(snapshot): void
+}
+class "Snapshot" as snap <<record>> {
+  - tick: int {readOnly}
+  - stats: Stats {readOnly}
+  - animals: List<AnimalView> {readOnly}
+}
+b --> o : observers  0..*
+w ..|> o
+s ..|> o
+b ..> snap : notifies with
+@enduml

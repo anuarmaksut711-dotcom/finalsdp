@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1100" height="690" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1100 690" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1100" height="690"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-690)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1100" height="690" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="662" style="font-family: Helvetica-Bold; font-size: 25px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1324) scale(1,-1)">Strategy</text>
+			<text x="20" y="637" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,1274) scale(1,-1)">The client supplies a strategy object; the engine delegates through the shared interface</text>
+			<rect x="20" y="446" width="440" height="159" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="157.103" y="581" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1162) scale(1,-1)">EcosystemFacade</text>
+			<path d="M 20,571 L 460,571 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,519 L 460,519 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="29" y="550" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1100) scale(1,-1)">- strategy: ForagingStrategy</text>
+			<text x="29" y="529" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1058) scale(1,-1)">- strategyName: String</text>
+			<text x="29" y="498" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,996) scale(1,-1)">+ setStrategy(replacement: ForagingStrategy): void</text>
+			<text x="29" y="477" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,954) scale(1,-1)">+ setStrategy(name: String): void</text>
+			<text x="29" y="456" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,912) scale(1,-1)">+ step(): Snapshot</text>
+			<rect x="590" y="471" width="490" height="134" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="800.371" y="587" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1174) scale(1,-1)">«interface»</text>
+			<text x="756.3495" y="565" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1130) scale(1,-1)">ForagingStrategy</text>
+			<path d="M 590,554 L 1080,554 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 590,544 L 1080,544 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="599" y="523" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1046) scale(1,-1)">+ name(): String</text>
+			<text x="599" y="502" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1004) scale(1,-1)">+ choose(targets: List&lt;Target&gt;): Optional&lt;Target&gt;</text>
+			<text x="599" y="481" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,962) scale(1,-1)">+ meal(biomass: int): int</text>
+			<path d="M 460,541.4 L 590,557.296 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 582.544636,552.354589 L 590,557.296 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 581.573652,560.295444 L 590,557.296 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="485.9825" y="565" width="78.03500000000003" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="489.9825" y="568" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1136) scale(1,-1)">strategy  1</text>
+			<rect x="20" y="315" width="440" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="159.763" y="366" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,732) scale(1,-1)">SimulationEngine</text>
+			<path d="M 20,356 L 460,356 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,346 L 460,346 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="29" y="325" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,650) scale(1,-1)">+ advance(world, strategy, weather): List&lt;String&gt;</text>
+			<path d="M 240,446 L 240,390 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 236,398 L 240,390 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 244,398 L 240,390 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="253.485" y="418" width="53.02999999999997" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="257.485" y="421" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,842) scale(1,-1)">engine</text>
+			<path d="M 460,352.5 L 545,353 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 545,353 L 545,475 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 545,475 L 590,479.04 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 582.389719,474.340678 L 590,479.04 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 581.674374,482.308632 L 590,479.04 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="508.48" y="404" width="73.03999999999996" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="512.48" y="407" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,814) scale(1,-1)">delegates</text>
+			<rect x="20" y="155" width="320" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="83.9265" y="206" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,412) scale(1,-1)">NearestFoodStrategy</text>
+			<path d="M 20,196 L 340,196 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,186 L 340,186 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="29" y="165" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,330) scale(1,-1)">+ choose(targets)</text>
+			<path d="M 180,230 L 180,275 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 180,275 L 668.4,275 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 668.4,275 L 668.4,459 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="674.4 459, 668.4 471, 662.4 459" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="390" y="155" width="320" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="460.26300000000003" y="206" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,412) scale(1,-1)">SafestFoodStrategy</text>
+			<path d="M 390,196 L 710,196 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 390,186 L 710,186 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="399" y="165" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,330) scale(1,-1)">+ choose(targets)</text>
+			<path d="M 550,230 L 550,275 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 550,275 L 835,275 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 835,275 L 835,459 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="841 459, 835 471, 829 459" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="760" y="155" width="320" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="793.2985" y="206" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,412) scale(1,-1)">SustainableGrazingStrategy</text>
+			<path d="M 760,196 L 1080,196 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 760,186 L 1080,186 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="769" y="165" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,330) scale(1,-1)">+ choose(targets)</text>
+			<path d="M 920,230 L 920,275 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 920,275 L 1001.6,275 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 1001.6,275 L 1001.6,459 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="1007.6 459, 1001.6 471, 995.6 459" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="96" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,192) scale(1,-1)">The object setter accepts any policy implementation; the string overload selects a built-in policy.</text>
+			<text x="20" y="74" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,148) scale(1,-1)">name() is nonblank and stable while installed. The facade caches it in strategyName.</text>
+			<text x="20" y="52" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,104) scale(1,-1)">The engine supplies immutable choices and checks the returned target and meal amount.</text>
+			<text x="20" y="30" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,60) scale(1,-1)">meal() returns 0..min(MEAL, biomass). SustainableGrazingStrategy overrides the default meal policy.</text>
+		</g>
+	</g>
+</svg>

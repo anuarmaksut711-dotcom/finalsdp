@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1100" height="690" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1100 690" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1100" height="690"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-690)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1100" height="690" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="662" style="font-family: Helvetica-Bold; font-size: 25px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1324) scale(1,-1)">Observer</text>
+			<text x="20" y="637" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,1274) scale(1,-1)">Independent subscribers receive immutable snapshots in publication order</text>
+			<rect x="20" y="362" width="470" height="243" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="211.186" y="581" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1162) scale(1,-1)">EventBus</text>
+			<path d="M 20,571 L 490,571 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,456 L 490,456 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="29" y="550" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1100) scale(1,-1)">- observers: List&lt;EcosystemObserver&gt;</text>
+			<text x="29" y="529" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1058) scale(1,-1)">- pending: Deque&lt;Snapshot&gt;</text>
+			<text x="29" y="508" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1016) scale(1,-1)">- publishing: boolean</text>
+			<text x="29" y="487" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,974) scale(1,-1)">- deliveryErrors: List&lt;String&gt;</text>
+			<text x="29" y="466" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,932) scale(1,-1)">+ MAX_DELIVERY_ERRORS: int = 64 {static, readOnly}</text>
+			<text x="29" y="435" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,870) scale(1,-1)">+ subscribe(observer: EcosystemObserver): void</text>
+			<text x="29" y="414" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,828) scale(1,-1)">+ unsubscribe(observer: EcosystemObserver): void</text>
+			<text x="29" y="393" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,786) scale(1,-1)">+ publish(snapshot: Snapshot): void</text>
+			<text x="29" y="372" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,744) scale(1,-1)">+ deliveryErrors(): List&lt;String&gt;</text>
+			<rect x="650" y="513" width="430" height="92" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="830.371" y="587" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1174) scale(1,-1)">«interface»</text>
+			<text x="773.1255" y="565" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1130) scale(1,-1)">EcosystemObserver</text>
+			<path d="M 650,554 L 1080,554 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 650,544 L 1080,544 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="659" y="523" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1046) scale(1,-1)">+ onSnapshot(snapshot: Snapshot): void</text>
+			<path d="M 490,539.39 L 650,547.96 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 642.225394,543.537839 L 650,547.96 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 641.797508,551.526388 L 650,547.96 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="517.6475" y="554" width="104.70500000000004" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="521.6475" y="557" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1114) scale(1,-1)">observers  0..*</text>
+			<rect x="500" y="240" width="280" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="587.7405" y="291" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,582) scale(1,-1)">WorldPanel</text>
+			<path d="M 500,281 L 780,281 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 500,271 L 780,271 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="509" y="250" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,500) scale(1,-1)">+ onSnapshot(snapshot): void</text>
+			<rect x="800" y="240" width="280" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="870.3175" y="291" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,582) scale(1,-1)">App.StatsPanel</text>
+			<path d="M 800,281 L 1080,281 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 800,271 L 1080,271 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="809" y="250" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,500) scale(1,-1)">+ onSnapshot(snapshot): void</text>
+			<path d="M 640,315 L 640,390 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 640,390 L 779,390 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 779,390 L 779,501 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="785 501, 779 513, 773 501" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 940,315 L 940,390 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 940,390 L 994,390 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 994,390 L 994,501 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="1000 501, 994 513, 988 501" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="20" y="176" width="400" height="134" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="192.378" y="292" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,584) scale(1,-1)">«record»</text>
+			<text x="176.718" y="270" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,540) scale(1,-1)">Snapshot</text>
+			<path d="M 20,259 L 420,259 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,186 L 420,186 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="29" y="238" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,476) scale(1,-1)">- tick: int {readOnly}</text>
+			<text x="29" y="217" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,434) scale(1,-1)">- stats: Stats {readOnly}</text>
+			<text x="29" y="196" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,392) scale(1,-1)">- animals: List&lt;AnimalView&gt; {readOnly}</text>
+			<path d="M 208,362 L 208,310 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 204,318 L 208,310 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 212,318 L 208,310 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="226.82" y="337" width="86.36000000000001" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="230.82" y="340" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,680) scale(1,-1)">notifies with</text>
+			<text x="20" y="104" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,208) scale(1,-1)">App registers through EcosystemFacade.subscribe(); its EventBus stays private.</text>
+			<text x="20" y="82" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,164) scale(1,-1)">Subscriptions use object identity. Callback changes apply to later snapshots, not the current delivery.</text>
+			<text x="20" y="60" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,120) scale(1,-1)">A FIFO queue delays nested direct publications until the current snapshot reaches all subscribers.</text>
+			<text x="20" y="38" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,76) scale(1,-1)">RuntimeException does not stop delivery. deliveryErrors() returns an immutable list of the newest 64 errors.</text>
+		</g>
+	</g>
+</svg>

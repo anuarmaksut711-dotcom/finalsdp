@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1100" height="620" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1100 620" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1100" height="620"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-620)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1100" height="620" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="592" style="font-family: Helvetica-Bold; font-size: 25px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1184) scale(1,-1)">Bridge</text>
+			<text x="20" y="567" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,1134) scale(1,-1)">Report content and output format vary in independent class hierarchies</text>
+			<rect x="20" y="418" width="500" height="117" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="195.0355" y="511" style="font-family: Helvetica-Oblique; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1022) scale(1,-1)">EcosystemReport</text>
+			<path d="M 20,501 L 520,501 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,470 L 520,470 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="29" y="480" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,960) scale(1,-1)"># renderer: ReportRenderer {readOnly}</text>
+			<text x="29" y="449" style="font-family: Helvetica-Oblique; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,898) scale(1,-1)"># document(snapshot: Snapshot): ReportDocument</text>
+			<text x="29" y="428" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,856) scale(1,-1)">+ generate(snapshot: Snapshot): String</text>
+			<rect x="640" y="422" width="440" height="113" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="825.371" y="517" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1034) scale(1,-1)">«interface»</text>
+			<text x="787.686" y="495" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,990) scale(1,-1)">ReportRenderer</text>
+			<path d="M 640,484 L 1080,484 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 640,474 L 1080,474 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="649" y="453" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,906) scale(1,-1)">+ render(document: ReportDocument): String</text>
+			<text x="649" y="432" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,864) scale(1,-1)">+ extension(): String</text>
+			<path d="M 520,481.18 L 640,473.98 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 631.774792,470.466319 L 640,473.98 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 632.25393,478.451958 L 640,473.98 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="538.3175" y="486" width="81.36500000000001" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="542.3175" y="489" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,978) scale(1,-1)">renderer  1</text>
+			<rect x="20" y="195" width="235" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="63.599500000000006" y="246" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,492) scale(1,-1)">SummaryReport</text>
+			<path d="M 20,236 L 255,236 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,226 L 255,226 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="29" y="205" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,410) scale(1,-1)"># document(snapshot)</text>
+			<path d="M 137.5,270 L 137.5,320 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 137.5,320 L 145,320 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 145,320 L 145,406 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="151 406, 145 418, 139 406" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="285" y="195" width="235" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="334.936" y="246" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,492) scale(1,-1)">DetailedReport</text>
+			<path d="M 285,236 L 520,236 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 285,226 L 520,226 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="294" y="205" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,410) scale(1,-1)"># document(snapshot)</text>
+			<path d="M 402.5,270 L 402.5,320 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 402.5,320 L 395,320 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 395,320 L 395,406 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="401 406, 395 418, 389 406" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="640" y="174" width="205" height="96" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="658.558" y="246" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,492) scale(1,-1)">PlainTextRenderer</text>
+			<path d="M 640,236 L 845,236 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 640,226 L 845,226 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="649" y="205" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,410) scale(1,-1)">+ render(document)</text>
+			<text x="649" y="184" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,368) scale(1,-1)">+ extension(): String</text>
+			<path d="M 742.5,270 L 742.5,320 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 742.5,320 L 741.2,320 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 741.2,320 L 741.2,410 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="747.2 410, 741.2 422, 735.2 410" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="875" y="174" width="205" height="96" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="918.372" y="246" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,492) scale(1,-1)">CsvRenderer</text>
+			<path d="M 875,236 L 1080,236 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 875,226 L 1080,226 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="884" y="205" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,410) scale(1,-1)">+ render(document)</text>
+			<text x="884" y="184" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,368) scale(1,-1)">+ extension(): String</text>
+			<path d="M 977.5,270 L 977.5,320 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 977.5,320 L 978.8,320 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 978.8,320 L 978.8,410 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="984.8 410, 978.8 422, 972.8 410" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="90" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,180) scale(1,-1)">generate(snapshot) calls renderer.render(document(snapshot)).</text>
+			<text x="20" y="68" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,136) scale(1,-1)">Four combinations work: summary/text, summary/CSV, detail/text and detail/CSV.</text>
+		</g>
+	</g>
+</svg>

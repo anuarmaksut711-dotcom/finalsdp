@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1100" height="755" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1100 755" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1100" height="755"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-755)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1100" height="755" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="727" style="font-family: Helvetica-Bold; font-size: 25px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1454) scale(1,-1)">Pattern integration</text>
+			<text x="20" y="702" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,1404) scale(1,-1)">World creation, simulation, statistics and notifications</text>
+			<rect x="430" y="621" width="240" height="54" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="531.532" y="651" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1302) scale(1,-1)">App</text>
+			<path d="M 430,641 L 670,641 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 430,631 L 670,631 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="380" y="403" width="340" height="117" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="467.103" y="496" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,992) scale(1,-1)">EcosystemFacade</text>
+			<path d="M 380,486 L 720,486 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 380,476 L 720,476 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="389" y="455" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,910) scale(1,-1)">+ reset(config)</text>
+			<text x="389" y="434" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,868) scale(1,-1)">+ step(): Snapshot</text>
+			<text x="389" y="413" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,826) scale(1,-1)">+ report(detailed, renderer)</text>
+			<rect x="20" y="600" width="290" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="105.359" y="651" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1302) scale(1,-1)">WorldBuilder</text>
+			<path d="M 20,641 L 310,641 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,631 L 310,631 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="29" y="610" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1220) scale(1,-1)">+ build(): WorldConfig</text>
+			<rect x="20" y="413" width="290" height="92" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="130.371" y="487" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,974) scale(1,-1)">«interface»</text>
+			<text x="101.654" y="465" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,930) scale(1,-1)">BiomeFactory</text>
+			<path d="M 20,454 L 310,454 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,444 L 310,444 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="29" y="423" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,846) scale(1,-1)">+ createPlantProfile()</text>
+			<rect x="20" y="235" width="290" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="69.4395" y="286" style="font-family: Helvetica-Oblique; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,572) scale(1,-1)">OrganismSpawner&lt;T&gt;</text>
+			<path d="M 20,276 L 310,276 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,266 L 310,266 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="29" y="245" style="font-family: Helvetica; font-size: 14.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,490) scale(1,-1)"># createOrganism(id, x, y): T</text>
+			<rect x="790" y="600" width="290" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="854.763" y="651" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1302) scale(1,-1)">SimulationEngine</text>
+			<path d="M 790,641 L 1080,641 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 790,631 L 1080,631 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="799" y="610" style="font-family: Helvetica; font-size: 13.8px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1220) scale(1,-1)">+ advance(world, strategy, weather)</text>
+			<rect x="790" y="393" width="290" height="92" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="900.371" y="467" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,934) scale(1,-1)">«interface»</text>
+			<text x="856.3495" y="445" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,890) scale(1,-1)">ForagingStrategy</text>
+			<path d="M 790,434 L 1080,434 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 790,424 L 1080,424 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="799" y="403" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,806) scale(1,-1)">+ choose(targets)</text>
+			<rect x="790" y="208" width="290" height="92" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="900.371" y="282" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,564) scale(1,-1)">«interface»</text>
+			<text x="865.3175" y="260" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,520) scale(1,-1)">WeatherSource</text>
+			<path d="M 790,249 L 1080,249 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 790,239 L 1080,239 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="799" y="218" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,436) scale(1,-1)">+ read(tick): Weather</text>
+			<rect x="380" y="240" width="340" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="506.186" y="291" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,582) scale(1,-1)">EventBus</text>
+			<path d="M 380,281 L 720,281 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 380,271 L 720,271 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="389" y="250" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,500) scale(1,-1)">+ publish(snapshot)</text>
+			<rect x="380" y="68" width="340" height="92" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="515.371" y="142" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,284) scale(1,-1)">«interface»</text>
+			<text x="458.1255" y="120" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,240) scale(1,-1)">EcosystemObserver</text>
+			<path d="M 380,109 L 720,109 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 380,99 L 720,99 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="389" y="78" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,156) scale(1,-1)">+ onSnapshot(snapshot)</text>
+			<rect x="20" y="125" width="290" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="120.14099999999999" y="176" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,352) scale(1,-1)">Reporting</text>
+			<path d="M 20,166 L 310,166 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,156 L 310,156 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="29" y="135" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,270) scale(1,-1)">+ collect(world: World): Stats</text>
+			<path d="M 550,621 L 550,520 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 546,528 L 550,520 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 554,528 L 550,520 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="560.9875" y="560" width="58.02499999999998" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="564.9875" y="563" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1126) scale(1,-1)">Facade</text>
+			<path d="M 430,648 L 310,648 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 318,652 L 310,648 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 318,644 L 310,648 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="338.66" y="653" width="54.68000000000001" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="342.66" y="656" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1312) scale(1,-1)">Builder</text>
+			<path d="M 380,473.2 L 310,465.44 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 317.510563,470.297103 L 310,465.44 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 318.39202,462.345812 L 310,465.44 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="111.4" y="532" width="117.20000000000002" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="115.4" y="535" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1070) scale(1,-1)">Abstract Factory</text>
+			<path d="M 380,426.4 L 350,420 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 350,420 L 350,273 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 350,273 L 310,272.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 317.949379,276.59968 L 310,272.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 318.049371,268.600305 L 310,272.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="118.89750000000001" y="335" width="112.20500000000001" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="122.89750000000001" y="338" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,676) scale(1,-1)">Factory Method</text>
+			<path d="M 720,496.6 L 750,498 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 750,498 L 750,630 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 750,630 L 790,630 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 782,626 L 790,630 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 782,634 L 790,630 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 935,600 L 935,485 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 931,493 L 935,485 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 939,493 L 935,485 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="953.07" y="524" width="63.860000000000014" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="957.07" y="527" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1054) scale(1,-1)">Strategy</text>
+			<path d="M 1080,637.5 L 1090,638 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 1090,638 L 1090,255 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 1090,255 L 1080,254 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 1087.562283,258.776179 L 1080,254 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 1088.358312,250.815881 L 1080,254 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="921.4725" y="326" width="103.05499999999995" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="925.4725" y="329" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,658) scale(1,-1)">Adapter target</text>
+			<path d="M 550,403 L 550,315 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 546,323 L 550,315 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 554,323 L 550,315 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="573.32" y="341" width="71.36000000000001" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="577.32" y="344" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,688) scale(1,-1)">publishes</text>
+			<path d="M 550,240 L 550,160 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 546,168 L 550,160 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 554,168 L 550,160 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="572.16" y="182" width="69.67999999999995" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="576.16" y="185" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,370) scale(1,-1)">Observer</text>
+			<path d="M 380,420.55 L 365,420.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 365,420.5 L 365,162.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 365,162.5 L 310,162.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 318,166.5 L 310,162.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 318,158.5 L 310,162.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="20" y="97" style="font-family: Helvetica; font-size: 14.5px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,194) scale(1,-1)">Visitor: collect() runs both visitors.</text>
+			<text x="20" y="73" style="font-family: Helvetica; font-size: 14.5px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,146) scale(1,-1)">Bridge: EcosystemReport + ReportRenderer</text>
+			<text x="20" y="17" style="font-family: Helvetica; font-size: 15px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,34) scale(1,-1)">LegacyWeatherAdapter implements WeatherSource. Spawners consume profiles from the selected biome.</text>
+		</g>
+	</g>
+</svg>

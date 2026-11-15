@@ -1,0 +1,37 @@
+@startuml
+title Builder
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam defaultFontName Arial
+hide empty members
+class "App" as app {
+  - resetWorld(): void
+}
+class "WorldBuilder" as b {
+  - width: int
+  - height: int
+  - seed: long
+  - biome: String
+  --
+  + size(width: int, height: int): WorldBuilder
+  + seed(seed: long): WorldBuilder
+  + biome(biome: String): WorldBuilder
+  + population(herbivores, predators): WorldBuilder
+  + maxAnimals(maxAnimals: int): WorldBuilder
+  + strategy(strategy: String): WorldBuilder
+  + build(): WorldConfig
+}
+class "WorldConfig" as c <<record>> {
+  - width: int {readOnly}
+  - height: int {readOnly}
+  - seed: long {readOnly}
+  - biome: String {readOnly}
+  - initialHerbivores: int {readOnly}
+  - initialPredators: int {readOnly}
+  - maxAnimals: int {readOnly}
+  - strategy: String {readOnly}
+}
+app ..> b : uses
+b ..> c : «create»
+@enduml

@@ -1,0 +1,37 @@
+@startuml
+title Bridge
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam defaultFontName Arial
+hide empty members
+abstract class "EcosystemReport" as a {
+  # renderer: ReportRenderer {readOnly}
+  --
+  {abstract} # document(snapshot: Snapshot): ReportDocument
+  + generate(snapshot: Snapshot): String
+}
+interface "ReportRenderer" as i {
+  + render(document: ReportDocument): String
+  + extension(): String
+}
+class "SummaryReport" as s {
+  # document(snapshot)
+}
+class "DetailedReport" as d {
+  # document(snapshot)
+}
+class "PlainTextRenderer" as p {
+  + render(document)
+  + extension(): String
+}
+class "CsvRenderer" as c {
+  + render(document)
+  + extension(): String
+}
+a --> i : renderer  1
+s --|> a
+d --|> a
+p ..|> i
+c ..|> i
+@enduml

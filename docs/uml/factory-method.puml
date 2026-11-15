@@ -1,0 +1,43 @@
+@startuml
+title Factory Method
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam defaultFontName Arial
+hide empty members
+abstract class "OrganismSpawner<T>" as c {
+  + spawn(world: World, x: int, y: int): T
+  + createPending(world: World, x: int, y: int): T
+  {abstract} # createOrganism(id: long, x: int, y: int): T
+}
+class "PlantSpawner" as pc {
+  # createOrganism(id, x, y): Plant
+}
+class "HerbivoreSpawner" as hc {
+  # createOrganism(id, x, y): Herbivore
+}
+class "PredatorSpawner" as rc {
+  # createOrganism(id, x, y): Predator
+}
+abstract class "Organism" as o {
+  {abstract} + accept(visitor): void
+}
+class "Plant" as p {
+}
+abstract class "Animal" as a {
+}
+class "Herbivore" as h {
+}
+class "Predator" as r {
+}
+pc --|> c
+hc --|> c
+rc --|> c
+p --|> o
+a --|> o
+h --|> a
+r --|> a
+pc ..> p : «create»
+hc ..> h : «create»
+rc ..> r : «create»
+@enduml

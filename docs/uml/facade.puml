@@ -1,0 +1,41 @@
+@startuml
+title Facade
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam defaultFontName Arial
+hide empty members
+class "App" as app {
+  - resetWorld(): void
+}
+class "EcosystemFacade" as f {
+  - events: EventBus
+  - world: World
+  - changing: boolean
+  --
+  + reset(config: WorldConfig): void
+  + step(): Snapshot
+  + setStrategy(replacement: ForagingStrategy): void
+  + addHerbivores(count: int): void
+  + report(detailed: boolean, renderer): String
+  + snapshot(): Snapshot
+  + subscribe(observer: EcosystemObserver): void
+  + unsubscribe(observer: EcosystemObserver): void
+  + observerErrors(): List<String>
+}
+class "SimulationEngine" as e {
+  + advance(world, strategy, weather)
+}
+class "World" as w {
+  + tick: int
+  + plants: List<Plant>
+  + animals: NavigableMap
+}
+class "EventBus" as b {
+  + publish(snapshot: Snapshot): void
+}
+app ..> f : uses
+f --> e : engine
+f --> w : world
+f --> b : events
+@enduml

@@ -1,0 +1,164 @@
+@startuml
+title One successful simulation step
+skinparam defaultFontName Helvetica
+skinparam monochrome true
+skinparam shadowing false
+hide footbox
+participant App
+participant "facade : EcosystemFacade" as Facade
+participant "engine : SimulationEngine" as Engine
+participant "weather : WeatherSource" as Weather
+participant "strategy : ForagingStrategy" as Strategy
+participant "world : World" as World
+participant Reporting
+participant "visitor : OrganismVisitor" as Visitor
+participant "organism : Organism" as Organism
+participant "events : EventBus" as Events
+participant "observer : EcosystemObserver" as Observer
+
+App -> Facade : step()
+activate Facade
+Facade -> Facade : applyChange(action)
+activate Facade
+note right of Facade
+Set changing = true.
+Keep the guard active through notification.
+end note
+Facade -> Engine : advance(world, strategy, weather)
+activate Engine
+Engine -> Weather : read(world.tick)
+activate Weather
+Weather --> Engine : Weather
+deactivate Weather
+note over Engine, World
+Store weather, clear hunt events.
+end note
+Engine -> Engine : growPlants(world)
+activate Engine
+note right of Engine : Increase plant biomass within capacity.
+deactivate Engine
+loop each surviving animal in the initial ID order
+    note over Engine, World
+    Update age, cooldown and food reserve.
+    Spend metabolism only when hungry.
+    end note
+    alt already fled during this tick
+        note right of Engine : Preserve FLEEING activity.
+    else fed at the start of its turn
+        Engine -> Engine : calmTurn(world, animal)
+    else hungry herbivore
+        Engine -> Engine : feedHerbivore(world, strategy, herbivore)
+        activate Engine
+        note right of Engine : Behaviors.candidates(world, herbivore)
+        loop candidate food amounts
+            Engine -> Engine : checkedMeal(strategy, biomass)
+            activate Engine
+            Engine -> Strategy : meal(biomass)
+            Strategy --> Engine : int
+            note right of Engine : Require 0..min(MEAL, biomass).
+            deactivate Engine
+        end
+        note right of Engine : choices = List.copyOf(selected candidates)
+        Engine -> Strategy : choose(choices)
+        Strategy --> Engine : Optional<Target>
+        note right of Engine
+Require a nonnull Optional.
+Require a supplied target or Optional.empty().
+end note
+        note right of Engine : Move toward the target, or explore.
+        Engine -> Engine : eatActualCell(world, strategy, herbivore)
+        activate Engine
+        Engine -> Engine : checkedMeal(strategy, plant.biomass)
+        activate Engine
+        Engine -> Strategy : meal(plant.biomass)
+        Strategy --> Engine : int
+        note right of Engine : Require 0..min(MEAL, plant.biomass).
+        deactivate Engine
+        note over Engine, World : Consume returned amount; update energy and food reserve.
+        deactivate Engine
+        deactivate Engine
+    else hungry predator
+        Engine -> Engine : hunt(world, predator, messages)
+        note over Engine, World : Pursue prey; record pursuit, capture or escape.
+    end
+    note over Engine, World
+    Remove animals with no energy.
+    Queue offspring when reproduction conditions hold.
+    end note
+end
+note over Engine, World
+Register newborns after the loop.
+Increment world.tick.
+end note
+Engine --> Facade : messages : List<String>
+deactivate Engine
+
+Facade -> Facade : refresh(messages)
+activate Facade
+note right of Facade : Copy plant and animal views.
+Facade -> Reporting : collect(world)
+activate Reporting
+note right of Reporting : Create PopulationVisitor and BiomassVisitor.
+loop population visitor, then biomass visitor
+    Reporting -> World : visit(visitor)
+    activate World
+    loop each plant, then each animal
+        World -> Organism : accept(visitor)
+        activate Organism
+        alt Plant
+            Organism -> Visitor : visitPlant(this)
+        else Herbivore
+            Organism -> Visitor : visitHerbivore(this)
+        else Predator
+            Organism -> Visitor : visitPredator(this)
+        end
+        Visitor --> Organism : void
+        Organism --> World : void
+        deactivate Organism
+    end
+    World --> Reporting : void
+    deactivate World
+end
+Reporting --> Facade : Stats
+deactivate Reporting
+note right of Facade : Construct and store immutable Snapshot.
+Facade -> Events : publish(latest)
+activate Events
+note right of Events
+Enqueue latest at the tail of pending.
+Set publishing = true and drain the FIFO queue.
+Nested direct publications enqueue and return.
+end note
+loop each queued snapshot
+    Events -> Events : deliver(snapshot)
+    activate Events
+    loop each observer in a copied subscription list
+        Events -> Observer : onSnapshot(snapshot)
+        activate Observer
+        note right of Observer
+        WorldPanel, App.StatsPanel or a callback updates its view.
+        State queries and subscription changes are allowed.
+        Nested facade world commands are rejected.
+        end note
+        alt callback completes
+            Observer --> Events : void
+        else RuntimeException
+            Observer --> Events : failure
+            note right of Events
+            Keep the newest 64 delivery errors.
+            Continue to the next observer.
+            end note
+        end
+        deactivate Observer
+    end
+    deactivate Events
+end
+note right of Events : Reset publishing and clear pending in finally.
+Events --> Facade : void
+deactivate Events
+deactivate Facade
+note right of Facade : Reset changing = false in finally.
+deactivate Facade
+Facade --> App : latest : Snapshot
+deactivate Facade
+@enduml

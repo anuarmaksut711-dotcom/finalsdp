@@ -1,0 +1,52 @@
+@startuml
+title Pattern integration
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam defaultFontName Arial
+hide empty members
+class "App" as app {
+}
+class "EcosystemFacade" as f {
+  + reset(config)
+  + step(): Snapshot
+  + report(detailed, renderer)
+}
+class "WorldBuilder" as b {
+  + build(): WorldConfig
+}
+interface "BiomeFactory" as af {
+  + createPlantProfile()
+}
+abstract class "OrganismSpawner<T>" as fm {
+  # createOrganism(id, x, y): T
+}
+class "SimulationEngine" as e {
+  + advance(world, strategy, weather)
+}
+interface "ForagingStrategy" as s {
+  + choose(targets)
+}
+interface "WeatherSource" as w {
+  + read(tick): Weather
+}
+class "EventBus" as eb {
+  + publish(snapshot)
+}
+interface "EcosystemObserver" as o {
+  + onSnapshot(snapshot)
+}
+class "Reporting" as r {
+  + collect(world: World): Stats
+}
+app ..> f : Facade
+app ..> b : Builder
+f ..> af : Abstract Factory
+f ..> fm : Factory Method
+f ..> e
+e ..> s : Strategy
+e ..> w : Adapter target
+f ..> eb : publishes
+eb --> o : Observer
+f ..> r
+@enduml

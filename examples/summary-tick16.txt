@@ -1,0 +1,11 @@
+Ecosystem summary
+metric | value
+tick | 16
+biome | Meadow
+strategy | Nearest food
+temperature_C | 20.0
+rainfall_mm | 1.0
+herbivores | 30
+predators | 5
+plant_biomass_units | 8000
+animal_body_units | 45

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1100" height="735" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1100 735" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1100" height="735"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-735)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1100" height="735" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="707" style="font-family: Helvetica-Bold; font-size: 25px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1414) scale(1,-1)">Abstract Factory</text>
+			<text x="20" y="682" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,1364) scale(1,-1)">Each concrete factory supplies a matching family of plant, herbivore and predator profiles</text>
+			<rect x="345" y="521" width="425" height="134" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="522.871" y="637" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1274) scale(1,-1)">«interface»</text>
+			<text x="494.154" y="615" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1230) scale(1,-1)">BiomeFactory</text>
+			<path d="M 345,604 L 770,604 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 345,594 L 770,594 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="354" y="573" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1146) scale(1,-1)">+ createPlantProfile(): PlantProfile</text>
+			<text x="354" y="552" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1104) scale(1,-1)">+ createHerbivoreProfile(): HerbivoreProfile</text>
+			<text x="354" y="531" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1062) scale(1,-1)">+ createPredatorProfile(): PredatorProfile</text>
+			<rect x="20" y="581" width="285" height="54" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="61.676500000000004" y="611" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1222) scale(1,-1)">MeadowBiomeFactory</text>
+			<path d="M 20,601 L 305,601 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,591 L 305,591 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="810" y="581" width="270" height="54" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="852.09" y="611" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1222) scale(1,-1)">DesertBiomeFactory</text>
+			<path d="M 810,601 L 1080,601 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 810,591 L 1080,591 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 305,608 L 333.044387,610.418828 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="333.56 604.441, 345 611.45, 332.5288 616.3966" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 810,608 L 781.955613,610.418828 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="782.4712 616.3966, 770 611.45, 781.44 604.441" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="20" y="327" width="320" height="113" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="145.371" y="422" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,844) scale(1,-1)">«interface»</text>
+			<text x="127.20849999999999" y="400" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,800) scale(1,-1)">PlantProfile</text>
+			<path d="M 20,389 L 340,389 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,379 L 340,379 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="29" y="358" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,716) scale(1,-1)">+ capacity(): int</text>
+			<text x="29" y="337" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,674) scale(1,-1)">+ growth(): int</text>
+			<path d="M 396,521 L 396,480 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 396,480 L 180,480 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 180,480 L 180,440 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 176,448 L 180,440 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 184,448 L 180,440 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="20" y="154" width="320" height="71" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="152.378" y="207" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,414) scale(1,-1)">«record»</text>
+			<text x="89.731" y="185" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,370) scale(1,-1)">MeadowPlantProfile</text>
+			<path d="M 20,174 L 340,174 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,164 L 340,164 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 340,189.5 L 366,189.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 366,189.5 L 366,389.15 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 366,389.15 L 352,389.15 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="352 395.15, 340 389.15, 352 383.15" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="20" y="59" width="320" height="71" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="152.378" y="112" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,224) scale(1,-1)">«record»</text>
+			<text x="97.6445" y="90" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,180) scale(1,-1)">DesertPlantProfile</text>
+			<path d="M 20,79 L 340,79 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,69 L 340,69 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 340,94.5 L 366,94.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 366,94.5 L 366,389.15 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 366,389.15 L 352,389.15 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="352 395.15, 340 389.15, 352 383.15" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="390" y="285" width="320" height="155" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="515.371" y="422" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,844) scale(1,-1)">«interface»</text>
+			<text x="476.09000000000003" y="400" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,800) scale(1,-1)">HerbivoreProfile</text>
+			<path d="M 390,389 L 710,389 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 390,379 L 710,379 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="399" y="358" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,716) scale(1,-1)">+ initialEnergy(): int</text>
+			<text x="399" y="337" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,674) scale(1,-1)">+ maxEnergy(): int</text>
+			<text x="399" y="316" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,632) scale(1,-1)">+ metabolism(): int</text>
+			<text x="399" y="295" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,590) scale(1,-1)">+ threshold(): int</text>
+			<path d="M 557.5,521 L 557.5,480 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 557.5,480 L 550,480 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 550,480 L 550,440 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 546,448 L 550,440 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 554,448 L 550,440 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="390" y="154" width="320" height="71" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="522.378" y="207" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,414) scale(1,-1)">«record»</text>
+			<text x="438.6125" y="185" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,370) scale(1,-1)">MeadowHerbivoreProfile</text>
+			<path d="M 390,174 L 710,174 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 390,164 L 710,164 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 710,189.5 L 736,189.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 736,189.5 L 736,370.25 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 736,370.25 L 722,370.25 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="722 376.25, 710 370.25, 722 364.25" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="390" y="59" width="320" height="71" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="522.378" y="112" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,224) scale(1,-1)">«record»</text>
+			<text x="446.526" y="90" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,180) scale(1,-1)">DesertHerbivoreProfile</text>
+			<path d="M 390,79 L 710,79 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 390,69 L 710,69 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 710,94.5 L 736,94.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 736,94.5 L 736,370.25 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 736,370.25 L 722,370.25 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="722 376.25, 710 370.25, 722 364.25" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="760" y="285" width="320" height="155" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="885.371" y="422" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,844) scale(1,-1)">«interface»</text>
+			<text x="851.372" y="400" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,800) scale(1,-1)">PredatorProfile</text>
+			<path d="M 760,389 L 1080,389 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 760,379 L 1080,379 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="769" y="358" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,716) scale(1,-1)">+ initialEnergy(): int</text>
+			<text x="769" y="337" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,674) scale(1,-1)">+ maxEnergy(): int</text>
+			<text x="769" y="316" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,632) scale(1,-1)">+ metabolism(): int</text>
+			<text x="769" y="295" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,590) scale(1,-1)">+ threshold(): int</text>
+			<path d="M 719,521 L 719,480 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 719,480 L 920,480 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 920,480 L 920,440 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 916,448 L 920,440 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 924,448 L 920,440 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="760" y="154" width="320" height="71" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="892.378" y="207" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,414) scale(1,-1)">«record»</text>
+			<text x="813.8945" y="185" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,370) scale(1,-1)">MeadowPredatorProfile</text>
+			<path d="M 760,174 L 1080,174 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 760,164 L 1080,164 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 1080,189.5 L 1106,189.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 1106,189.5 L 1106,370.25 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 1106,370.25 L 1092,370.25 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="1092 376.25, 1080 370.25, 1092 364.25" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="760" y="59" width="320" height="71" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="892.378" y="112" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,224) scale(1,-1)">«record»</text>
+			<text x="821.808" y="90" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,180) scale(1,-1)">DesertPredatorProfile</text>
+			<path d="M 760,79 L 1080,79 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 760,69 L 1080,69 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 1080,94.5 L 1106,94.5 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 1106,94.5 L 1106,370.25 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 1106,370.25 L 1092,370.25 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<polygon points="1092 376.25, 1080 370.25, 1092 364.25" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="250" style="font-family: Helvetica; font-size: 15px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,500) scale(1,-1)">Meadow product family</text>
+			<text x="20" y="135" style="font-family: Helvetica; font-size: 15px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,270) scale(1,-1)">Desert product family</text>
+			<text x="20" y="20" style="font-family: Helvetica; font-size: 15px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,40) scale(1,-1)">Meadow and Desert factories create matching plant, herbivore and predator profiles.</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1100" height="650" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1100 650" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1100" height="650"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-650)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1100" height="650" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="622" style="font-family: Helvetica-Bold; font-size: 25px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1244) scale(1,-1)">Builder</text>
+			<text x="20" y="597" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,1194) scale(1,-1)">Fluent construction of a validated, immutable world configuration</text>
+			<rect x="20" y="370" width="220" height="75" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="111.532" y="421" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,842) scale(1,-1)">App</text>
+			<path d="M 20,411 L 240,411 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 20,401 L 240,401 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="29" y="380" style="font-family: Helvetica; font-size: 16px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,760) scale(1,-1)">- resetWorld(): void</text>
+			<rect x="290" y="280" width="450" height="285" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="455.359" y="541" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1082) scale(1,-1)">WorldBuilder</text>
+			<path d="M 290,531 L 740,531 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 290,437 L 740,437 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="299" y="510" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1020) scale(1,-1)">- width: int</text>
+			<text x="299" y="489" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,978) scale(1,-1)">- height: int</text>
+			<text x="299" y="468" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,936) scale(1,-1)">- seed: long</text>
+			<text x="299" y="447" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,894) scale(1,-1)">- biome: String</text>
+			<text x="299" y="416" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,832) scale(1,-1)">+ size(width: int, height: int): WorldBuilder</text>
+			<text x="299" y="395" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,790) scale(1,-1)">+ seed(seed: long): WorldBuilder</text>
+			<text x="299" y="374" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,748) scale(1,-1)">+ biome(biome: String): WorldBuilder</text>
+			<text x="299" y="353" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,706) scale(1,-1)">+ population(herbivores, predators): WorldBuilder</text>
+			<text x="299" y="332" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,664) scale(1,-1)">+ maxAnimals(maxAnimals: int): WorldBuilder</text>
+			<text x="299" y="311" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,622) scale(1,-1)">+ strategy(strategy: String): WorldBuilder</text>
+			<text x="299" y="290" style="font-family: Helvetica; font-size: 15.5px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,580) scale(1,-1)">+ build(): WorldConfig</text>
+			<rect x="810" y="286" width="270" height="239" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="917.378" y="507" style="font-family: Helvetica; font-size: 14px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,1014) scale(1,-1)">«record»</text>
+			<text x="888.0095" y="485" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,970) scale(1,-1)">WorldConfig</text>
+			<path d="M 810,474 L 1080,474 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 810,296 L 1080,296 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="819" y="453" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,906) scale(1,-1)">- width: int {readOnly}</text>
+			<text x="819" y="432" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,864) scale(1,-1)">- height: int {readOnly}</text>
+			<text x="819" y="411" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,822) scale(1,-1)">- seed: long {readOnly}</text>
+			<text x="819" y="390" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,780) scale(1,-1)">- biome: String {readOnly}</text>
+			<text x="819" y="369" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,738) scale(1,-1)">- initialHerbivores: int {readOnly}</text>
+			<text x="819" y="348" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,696) scale(1,-1)">- initialPredators: int {readOnly}</text>
+			<text x="819" y="327" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,654) scale(1,-1)">- maxAnimals: int {readOnly}</text>
+			<text x="819" y="306" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,612) scale(1,-1)">- strategy: String {readOnly}</text>
+			<path d="M 240,407.5 L 290,445.3 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 286.030661,437.284743 L 290,445.3 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 281.206191,443.666317 L 290,445.3 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="245.16" y="427" width="39.67999999999998" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="249.16" y="430" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,860) scale(1,-1)">uses</text>
+			<path d="M 740,453.85 L 810,407.89 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 6, 4;"/>
+			<path d="M 801.117226,408.937055 L 810,407.89 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<path d="M 805.50798,415.624452 L 810,407.89 Z" style="stroke: rgb(13%,13%,13%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<rect x="741.8175" y="399" width="66.36500000000001" height="20" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="745.8175" y="402" style="font-family: Helvetica; font-size: 15px;fill: rgb(13%,13%,13%); stroke:none;" transform="translate(0,804) scale(1,-1)">«create»</text>
+			<text x="20" y="75" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,150) scale(1,-1)">build() validates size, population, cap, biome and strategy.</text>
+			<text x="20" y="53" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,106) scale(1,-1)">WorldBuilder collects settings through a fluent API.</text>
+			<text x="20" y="31" style="font-family: Helvetica; font-size: 16px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,62) scale(1,-1)">population(herbivores, predators) sets both initial populations.</text>
+		</g>
+	</g>
+</svg>

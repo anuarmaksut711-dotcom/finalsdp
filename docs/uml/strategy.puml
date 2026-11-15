@@ -1,0 +1,39 @@
+@startuml
+title Strategy
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam defaultFontName Arial
+hide empty members
+class "EcosystemFacade" as f {
+  - strategy: ForagingStrategy
+  - strategyName: String
+  --
+  + setStrategy(replacement: ForagingStrategy): void
+  + setStrategy(name: String): void
+  + step(): Snapshot
+}
+interface "ForagingStrategy" as s {
+  + name(): String
+  + choose(targets: List<Target>): Optional<Target>
+  + meal(biomass: int): int
+}
+class "SimulationEngine" as e {
+  + advance(world, strategy, weather): List<String>
+}
+class "NearestFoodStrategy" as n {
+  + choose(targets)
+}
+class "SafestFoodStrategy" as safe {
+  + choose(targets)
+}
+class "SustainableGrazingStrategy" as sus {
+  + choose(targets)
+}
+f --> s : strategy  1
+f --> e : engine
+e ..> s : delegates
+n ..|> s
+safe ..|> s
+sus ..|> s
+@enduml

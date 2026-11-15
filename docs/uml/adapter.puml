@@ -1,0 +1,29 @@
+@startuml
+title Adapter
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam defaultFontName Arial
+hide empty members
+class "SimulationEngine" as e {
+  + advance(world, strategy, weather)
+}
+interface "WeatherSource" as s {
+  + read(tick: int): Weather
+}
+class "NativeWeatherSource" as n {
+  + read(tick: int): Weather
+}
+class "LegacyWeatherAdapter" as a {
+  - station: LegacyWeatherStation
+  --
+  + read(tick: int): Weather
+}
+class "LegacyWeatherStation" as l {
+  + sample(step: int): double[]
+}
+e ..> s : uses Target
+n ..|> s
+a ..|> s
+a --> l : station  1
+@enduml

@@ -1,0 +1,56 @@
+@startuml
+title Abstract Factory
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam defaultFontName Arial
+hide empty members
+interface "BiomeFactory" as f {
+  + createPlantProfile(): PlantProfile
+  + createHerbivoreProfile(): HerbivoreProfile
+  + createPredatorProfile(): PredatorProfile
+}
+class "MeadowBiomeFactory" as mf {
+}
+class "DesertBiomeFactory" as df {
+}
+interface "PlantProfile" as p {
+  + capacity(): int
+  + growth(): int
+}
+class "MeadowPlantProfile" as Meadowp <<record>> {
+}
+class "DesertPlantProfile" as Desertp <<record>> {
+}
+interface "HerbivoreProfile" as h {
+  + initialEnergy(): int
+  + maxEnergy(): int
+  + metabolism(): int
+  + threshold(): int
+}
+class "MeadowHerbivoreProfile" as Meadowh <<record>> {
+}
+class "DesertHerbivoreProfile" as Deserth <<record>> {
+}
+interface "PredatorProfile" as r {
+  + initialEnergy(): int
+  + maxEnergy(): int
+  + metabolism(): int
+  + threshold(): int
+}
+class "MeadowPredatorProfile" as Meadowr <<record>> {
+}
+class "DesertPredatorProfile" as Desertr <<record>> {
+}
+mf ..|> f
+df ..|> f
+f ..> p
+Meadowp ..|> p
+Desertp ..|> p
+f ..> h
+Meadowh ..|> h
+Deserth ..|> h
+f ..> r
+Meadowr ..|> r
+Desertr ..|> r
+@enduml

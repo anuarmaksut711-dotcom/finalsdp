@@ -1,0 +1,55 @@
+@startuml
+title Visitor
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam defaultFontName Arial
+hide empty members
+abstract class "Organism" as o {
+  + id: long {readOnly}
+  + x: int
+  + y: int
+  --
+  {abstract} + accept(visitor: OrganismVisitor): void
+}
+interface "OrganismVisitor" as v {
+  + visitPlant(plant: Plant): void
+  + visitHerbivore(herbivore: Herbivore): void
+  + visitPredator(predator: Predator): void
+}
+class "Plant" as p {
+  + biomass: int
+  --
+  + accept(visitor): void
+}
+abstract class "Animal" as a {
+  + energy: int
+  + age: int
+}
+class "Herbivore" as h {
+  + accept(visitor): void
+}
+class "Predator" as r {
+  + accept(visitor): void
+}
+class "PopulationVisitor" as pop {
+  + plants: int
+  + herbivores: int
+  + predators: int
+}
+class "BiomassVisitor" as bio {
+  + plantBiomass: int
+  + animalBodyUnits: int
+}
+class "World" as w {
+  + visit(visitor: OrganismVisitor): void
+}
+o ..> v : visitor argument
+p --|> o
+a --|> o
+h --|> a
+r --|> a
+pop ..|> v
+bio ..|> v
+w ..> o : calls accept on every element
+@enduml
